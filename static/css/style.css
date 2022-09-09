@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background: #f3904f; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #3b4371,
+    #f3904f
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #3b4371,
+    #f3904f
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#login, #reg-form {
+  display: flex;
+  flex-direction: column;
+  background: #a770ef; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #fdb99b,
+    #cf8bf3,
+    #a770ef
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #fdb99b,
+    #cf8bf3,
+    #a770ef
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 30%;
+  margin: 0px auto;
+  margin-top: 8rem;
+}
+input {
+  height: 2rem;
+  width: 80%;
+  margin-left: 10%;
+}
+a {
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  #reg-form {
+    width: 40%;
+  }
+}
+@media (max-width: 576px) {
+  #reg-form {
+    width: 80%;
+  }
+}

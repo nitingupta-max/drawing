@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/510/fabric.min.js"></script>
+    <title>Drawing Application</title>
+  </head>
+  <body>
+    <div class="canvasMain">
+      <h1>Drawing App</h1>
+      
+    <div class="sidenav">
+      <button onclick="toggleDraw()">Draw &#9998;</button>
+      <button onclick="createRectangle()">Rectangle</button>
+      <button onclick="createSquare()">Square</button>
+      <button onclick="createCircle()">Circle</button>
+      <button onclick="createTextbox()"> Text box</button>
+       <button onclick="deleteObject()"> Delete &#10006</button>
+       <!-- <button onclick="icecreamFunction()"> Ice cream &#127846;
+    </button> -->
+      <!-- <input type="number" id="scoops" value="1" min="1" max="5"> -->
+    </div>
+          <canvas id="demoCanvas"/>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
