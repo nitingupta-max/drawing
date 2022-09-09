@@ -21,7 +21,7 @@ async function login(event) {
     // everythign went fine
     console.log("Got the token: ", result.data);
     localStorage.setItem("token", result.data);
-    window.location = "https://drawing-app123.herokuapp.com/index.html";
+    window.location = "https://drawing-app123.herokuapp.com/App/index.html";
   } else {
     alert(result.error);
   }
